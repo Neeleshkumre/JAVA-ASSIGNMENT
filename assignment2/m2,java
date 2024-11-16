@@ -1,0 +1,6 @@
+class m2 {
+    ZeroArgConstructor() { System.out.println("Zero-Argument Constructor Called"); }
+    public static void main(String[] args) {
+        new ZeroArgConstructor();
+    }
+}
